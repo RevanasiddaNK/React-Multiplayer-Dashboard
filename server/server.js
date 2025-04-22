@@ -34,6 +34,7 @@ io.on("connection", (socket) => {
     playerScores = playerScores.filter(p => p.id !== socket.id);
     io.emit("playerScores", playerScores);
   });
+  
 });
 
 setInterval(() => {
