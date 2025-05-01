@@ -1,5 +1,3 @@
----
-
 ## Overview
 
 **React-Multiplayer-Dashboard** is a real-time, event-driven dashboard built with React and Socket.IO. Users can join “rooms,” submit scores or data, and instantly see updates broadcast to every connected client—no manual refresh required. This README digs into the Socket.IO features that power your dashboard’s low-latency interactivity and explains how they map to your code.
